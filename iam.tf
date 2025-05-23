@@ -1,3 +1,6 @@
+provider "aws" {
+}
+
 resource "aws_iam_user" "import_user_iam" {
   force_destroy        = null
   name                 = "iam-github-user"
