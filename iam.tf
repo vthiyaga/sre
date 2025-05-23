@@ -7,7 +7,7 @@ resource "aws_iam_user" "import_user_iam" {
   path                 = "/"
   permissions_boundary = null
   tags                 = {
-    Name = "Created_By_TF"
+    Name = "Created_By_TF_Updated"
   }
  
   lifecycle {
